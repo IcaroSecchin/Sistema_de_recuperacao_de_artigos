@@ -121,12 +121,6 @@ def mudar_senha_bd(nova_senha, e_mail, bd_path):
     
 def recuperar_senha(e_mail, bd_path):
     
-    '''
-    conteudo do arquivo .env ja que tal não será enviado pelo ava:
-    enviador=sistemaderecuperacaodeconta.poo@gmail.com
-    senhaapp=gjsz ucpq hqax akbi
-    '''
-    
     banco = sqlite3.connect(bd_path)
     cursor = banco.cursor()
     
