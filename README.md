@@ -19,3 +19,5 @@ SQLite, ChromaDB: Database for storing articles, with the choice being configura
 PyQt: For creating interfaces, to improve the aesthetics of the project.
 
 The system also includes password recovery via email and address search by zip code for user registration.
+
+NOTE: for the "recover password" function to work, a ".env" file with the sender's email and password is required.
