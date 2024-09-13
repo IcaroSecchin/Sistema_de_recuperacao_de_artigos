@@ -1,0 +1,1 @@
+O Banco de dados com o ChromaDB fica nesta paste, ele é usado para efetuar melhores buscas de artigos ja cadastrados.
