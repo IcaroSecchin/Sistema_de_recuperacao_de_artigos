@@ -13,14 +13,22 @@ Atualizações Periódicas: O sistema é capaz de atualizar periodicamente o ban
 
 Tecnologias Utilizadas:
 Python: Linguagem de programação utilizada.
+
 arxiv-python: Biblioteca usada para comunicação com a API do arXiv.
+
 SQLite, ChromaDB: Bancos de dados para armazenar os dados dos artigos, com a possibilidade de configurar a opção desejada.
+
 PyQt: Usado para criar a interface de usuário, melhorando a estética e a experiência do projeto.
+
 Além disso, o sistema inclui uma função de recuperação de senha via e-mail e uma busca de endereço por CEP no momento do cadastro do usuário.
 
 Nota: Para que a função de "recuperar senha" funcione, é necessário um arquivo ".env" contendo o e-mail e a senha do remetente.
 
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
 English:
+
 This repository contains the code developed during the third semester of the Control and Automation Engineering course. The main objective is to retrieve, store, and manage scientific articles using the arXiv API. The project explores the integration between API technology and database management.
 
 Key Features:
@@ -34,7 +42,13 @@ Periodic Updates: The system can periodically update the database to include new
 
 Technologies Used:
 Python: The primary programming language.
+
 arxiv-python: Library used for communication with the arXiv API.
+
 SQLite, ChromaDB: Databases for storing article data, with the option to configure the database of choice.
+
 PyQt: Used for creating the user interface, enhancing the aesthetics and user experience.
+
 Additionally, the system includes a password recovery feature via email and an address lookup by zip code during user registration.
+
+Note: For the "recover password" function to work, a ".env" file with the sender's email and password is required.
